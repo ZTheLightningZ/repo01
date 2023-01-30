@@ -20,6 +20,33 @@
             background-color: yellowgreen;
             padding: 20px;
         }
+        .navbar {
+            display: flex; /* enable flexbox on the navbar container */
+            justify-content: space-between; /* distribute the links evenly across the navbar */
+            font-size: 25px;
+        }
+        .container {
+            /*display: flex;*/
+            height: auto;
+            font-size: 20px;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .box1 {
+            flex: 1;
+            height: auto;
+            width: auto;
+        }
+        .ID1 {
+            height: auto;
+            width: auto;
+            color: gold;
+        }
+        .ID2 {
+            background-color: rgb(200, 50, 80)
+        }
+
         header {
             background-color: gold;
             padding: 15px;
@@ -46,14 +73,21 @@
         }
         section {
             background-color: firebrick;
-            padding: 15px;
+            padding: 5px;
             border-radius: 5px;
             color: white;
         }
     </style>
+
     <body>
+
         <h1>This is a web page</h1>
         <br>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
         <p>
         <h3>An example of a dropdown list:</h3>
         <select>
@@ -87,18 +121,62 @@
             <br>
             <nav>nav</nav>
             <br>
-            <article>article
+            <article class="container">
                 <br>
-                <section>SECTION 1
-                    <p>This is a test sentence for testing the site.</p>
-                    <p>This is another sentence for testing the site.</p>
-                </section>
-                <br>
-                <section>SECTION 2: Loveless Act. I
+                <section class="box1"><p class="ID2">Loveless Act. I:</p>
                     <p>Infinite in mystery is the gift of the Goddess<br>
                     We seek it thus, and take to the sky<br>
                     Ripples form on the water's surface<br>
-                    The wandering soul knows no rest.</p>
+                    The wandering soul knows no rest.<br>
+                    <br>   
+                    Three friends go into battle.<br>
+                    One is captured<br>
+                    One flies away<br>
+                    The one that is left becomes a hero.</p>
+                </section>
+                <br>
+                <section class="box1"><p class="ID2">Loveless Act. II:</p>
+                    <p>Dreams of the morrow hath the shattered soul<br>
+                    Pride is lost<br>
+                    Wings stripped away, the end is nigh<br>
+                    <br>
+                    There is no hate, only joy<br>
+                    For you are beloved by the goddess<br>
+                    Hero of the dawn, Healer of worlds</p>
+                </section>
+                <br>
+                <section class="box1"><p class="ID2">Loveless Act. III:</p>
+                <p>My friend, do you fly away now?<br>
+                To a world that abhors you and I?<br>
+                All that awaits you is a somber morrow<br>
+                No matter where the winds may blow<br>
+                <br>
+                My soul, corrupted by vengeance<br>
+                Hath endured torment, to find the end of the journey<br>
+                In my own salvation<br>
+                And your eternal slumber</p>
+                </section>
+                <br>
+                <section class="box1"><p class="ID2">Loveless Act. IV:</p>
+                    <p>My friend, the fates are cruel<br>
+                    There are no dreams, no honor remains<br>
+                    The arrow has left the bow of the goddess<br>
+                    <br>
+                    My friend, your desire<br>
+                    Is the bringer of life, the gift of the goddess<br>
+                    Legend shall speak<br>
+                    Of sacrifice at world's end<br>
+                    The wind sails over the water's surface<br>
+                    Quietly, but surely</p>
+                </section> 
+                <br>
+                <section class="box1"><p class="ID2">Loveless Act. V:</p>
+                    <p>Even if the morrow is barren of promises<br>
+                    Nothing shall forestall my return<br>
+                    <br></p>
+                    <p class="ID1"><b>To become the dew that quenches the land<br>
+                    To spare the sands, the seas, the skies<br>
+                    I offer thee this silent sacrifice</b></p>
                 </section>
             </article>
             <br>
